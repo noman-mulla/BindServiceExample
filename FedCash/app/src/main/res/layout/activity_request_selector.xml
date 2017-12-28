@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mmulla4.project2.uic.edu.fedcash.RequestSelector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/unbindService"
+        android:text="Unbind Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/pastResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Past Results"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Select API Call below"/>
+
+
+
+    <Spinner
+        android:id="@+id/spinnerApis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+    </Spinner>
+
+
+
+    <EditText
+        android:id="@+id/dayText"
+        android:visibility="gone"
+        android:hint="Enter Day of Month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/monthText"
+        android:visibility="gone"
+        android:hint="Enter Month of Year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/yearText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:text="Select the year"/>
+
+
+    <Spinner
+        android:id="@+id/monthlyCashSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:visibility="gone"></Spinner>
+
+    <EditText
+        android:id="@+id/workingText"
+        android:visibility="gone"
+        android:hint="Enter Working Day between 5-25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:id="@+id/getResult"
+        android:text="Get Result"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+
+
+    <TextView
+        android:id="@+id/resultText"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"/>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
